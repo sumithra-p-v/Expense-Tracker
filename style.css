@@ -1,0 +1,68 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 50px;
+    color: rgb(19, 64, 6);
+  }
+  body.homepage h2.disease-label {
+    background-color: #f0f8ff; 
+    color: #333; 
+  }
+  h2.label {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 24px;
+  }
+  
+  body.plant h2.label {
+    color: green;
+    background-color: white;
+  }
+  
+  body.animal h2.label {
+    color: blue;
+    background-color: rgb(11, 11, 11);
+  }
+  
+  body.human h2.label {
+    color: red;
+    background-color: white;
+  }
+  
+  h1, h2 {
+    margin-bottom: 30px;
+  }
+  
+  .buttons button {
+    padding: 12px 25px;
+    margin: 25px;
+    font-size: 20px;
+    border: 3px solid rgb(238, 10, 10);
+    border-radius: 15spx;
+    cursor: pointer;
+  }
+  
+  .green { border-color: green; }
+  .blue { border-color: blue; }
+  .red { border-color: red; }
+  
+  body.home {
+    background: url('../assets/backgrounds/home_bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  body.plant {
+    background: url('../assets/backgrounds/plant_bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  body.animal {
+    background: url('../assets/backgrounds/animal_bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  body.human {
+    background: url('../assets/backgrounds/human_bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
